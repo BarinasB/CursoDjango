@@ -1,0 +1,42 @@
+### entrar en la carpeta de cmd 
+
+python -m venv env  ### crear el entorno virtual 
+
+\env\Scripts y luego .\activate ### Ingresar   
+
+pip list ## listado de complementos instalados
+
+django-admin startproject card
+
+## complementos 
+
+pip install mysqlclient 
+pip install xlwt 
+
+
+## correr el servidor
+python manage.py runserver
+
+
+## 
+pip install -r Requirements.txt 
+
+
+
+git
+#####
+git init
+
+git add .
+
+git commit -m "first commit"
+
+git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
+
+git push -u origin master 
+
+
+
+$ git log --oneline  ## mirar la cantidad de commits 
+
+git reset --hard  ### regresar a tal commit

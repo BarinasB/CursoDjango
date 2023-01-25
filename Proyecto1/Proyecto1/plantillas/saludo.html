@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: rgb(0, 26, 255);"> el nombre de la persona es {{nombre_persona}} y el apellido es {{apellido_persona}}</h1> 
+    <h2> Se esta viendo el tema de las plantillas a d&iacute;a:  {{tiempo_ahora.day}} / {{tiempo_ahora.month}} / {{tiempo_ahora.year}}  </h2>  
+    
+    <p><strong> Temas del curso:</strong></p>
+    
+    <p>  
+        <ul> 
+        {% if temas %} 
+            
+         {% for elTema in temas %}
+
+           <li>{{elTema}}</li>    
+
+         {%endfor%} 
+        
+        {% else %} 
+         <p> No hay elementos que mostrar</p>
+
+        {% endif %}
+        </ul>
+    </p>
+
+
+    <p>{{temas.1}}</p>   
+
+
+
+</body>
+</html>
