@@ -22,6 +22,9 @@ python manage.py runserver
 pip install -r Requirements.txt 
 
 
+git pull # para traer los cambios desde GI
+
+
 
 git
 #####
